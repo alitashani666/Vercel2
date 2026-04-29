@@ -1,83 +1,124 @@
-const _0x3b7a8f = [
-  "cnVudGltZQ==", "ZWRnZQ==", "VEFSR0VUX0RPTUFJTg==", "cmVwbGFjZQ==",
-  "aG9zdA==", "Y29ubmVjdGlvbg==", "a2VlcC1hbGl2ZQ==", "cHJveHktYXV0aGVudGljYXRl",
-  "cHJveHktYXV0aG9yaXphdGlvbg==", "dGU=", "dHJhaWxlcg==", "dHJhbnNmZXItZW5jb2Rpbmc=",
-  "dXBncmFkZQ==", "Zm9yd2FyZGVk", "eC1mb3J3YXJkZWQtaG9zdA==", "eC1mb3J3YXJkZWQtcHJvdG8=",
-  "eC1mb3J3YXJkZWQtcG9ydA==", "TWlzY29uZmlndXJlZDogVEFSR0VUX0RPTUFJTiBpcyBub3Qgc2V0", "aW5kZXhPZg==", "c2xpY2U=",
-  "aGFz", "c3RhcnRzV2l0aA==", "eC12ZXJjZWwt", "eC1yZWFsLWlw",
-  "eC1mb3J3YXJkZWQtZm9y", "c2V0", "bWV0aG9k", "R0VU",
-  "SEVBRA==", "aGFsZg==", "bWFudWFs", "cmVsYXkgZXJyb3I6",
-  "ZXJyb3I=", "QmFkIEdhdGV3YXk6IFR1bm5lbCBGYWlsZWQ="
-];
+export const _0xa91f3c = { ["ru"+"ntime"]:(()=>("ed"+"ge"))() };
 
-const _0x59a1f4 = _0x3b7a8f.map(x => atob(x));
-
-export const config = {};
-config[_0x59a1f4[0]] = _0x59a1f4[1];
-
-const _0x1c8b73 = typeof process !== "undefined" && process.env ? process.env[_0x59a1f4[2]] || "" : "";
-const _0x4d9a2f = _0x1c8b73[_0x59a1f4[3]](/\/$/, "");
-
-const _0x8e2c4a = new Set([
-  _0x59a1f4[4], _0x59a1f4[5], _0x59a1f4[6], _0x59a1f4[7], _0x59a1f4[8], _0x59a1f4[9],
-  _0x59a1f4[10], _0x59a1f4[11], _0x59a1f4[12], _0x59a1f4[13], _0x59a1f4[14], _0x59a1f4[15], _0x59a1f4[16]
-]);
-
-const _0x67b93f = (function() {
-  let _0x2a = 0x5; let _0x1b = 0x0;
-  return function(_0x4c) {
-    if (_0x4c === 0x0) return _0x1b;
-    _0x2a += _0x4c;
-    _0x1b = _0x2a * 0x2;
-    return _0x2a;
+const _0x5b2d = (function(){
+  const _0x3c = [
+    "VEFSR0VUX0RPTUFJTg==","Lw==","eC12ZXJjZWwt",
+    "eC1yZWFsLWlw","eC1mb3J3YXJkZWQtZm9y",
+    "R0VU","SEVBRA==","aGFsZg==","bWFudWFs",
+    "cmVsYXkgZXJyb3I6","QmFkIEdhdGV3YXk6IFR1bm5lbCBGYWlsZWQ="
+  ];
+  let _0xcache;
+  return function(_0xk){
+    return (_0xcache||(_0xcache=_0x3c.map(atob)))[_0xk];
   };
 })();
 
-export default async function _0x9f8a2c1d(_0x3d1b7a) {
-  if (!_0x4d9a2f) {
-    return new Response(_0x59a1f4[17], { status: 0x1f4 });
+const _0x8c7e = ((process["env"][_0x5b2d(0)]||"")+"")["replace"](/\/$/,"");
+
+const _0x19d4 = new Set([
+  "aG9zdA==","Y29ubmVjdGlvbg==","a2VlcC1hbGl2ZQ==",
+  "cHJveHktYXV0aGVudGljYXRl","cHJveHktYXV0aG9yaXphdGlvbg==",
+  "dGU=","dHJhaWxlcg==","dHJhbnNmZXItZW5jb2Rpbmc=",
+  "dXBncmFkZQ==","Zm9yd2FyZGVk",
+  "eC1mb3J3YXJkZWQtaG9zdA==",
+  "eC1mb3J3YXJkZWQtcHJvdG8=",
+  "eC1mb3J3YXJkZWQtcG9ydA=="
+].map(atob));
+
+const _0x77aa = (_0xq=>{
+  let _0xv=0;
+  for(let i=0;i<_0xq.length;i++){
+    _0xv^=_0xq.charCodeAt(i)<<((i%5)+1);
   }
-  
-  try {
-    _0x67b93f(0x2);
-    if (_0x67b93f(0x0) > 0x3e8) return null;
+  return _0xv>>>0;
+});
 
-    const _0x7f4e8b = _0x3d1b7a.url[_0x59a1f4[18]]("/", 0x8);
-    const _0x2a3d5e = _0x7f4e8b === -0x1 ? _0x4d9a2f + "/" : _0x4d9a2f + _0x3d1b7a.url[_0x59a1f4[19]](_0x7f4e8b);
+const _0x0f1c = ()=>Math.random()< -1;
 
-    const _0x5e1b4c = new Headers();
-    let _0x8c7d3f = null;
+export default async function _0x3e7b(_0xreq){
+  let _0xst = _0x77aa("s")&3;
+  let _0xout;
 
-    for (const [_0x1a2b3c, _0x4d5e6f] of _0x3d1b7a.headers) {
-      if (_0x8e2c4a[_0x59a1f4[20]](_0x1a2b3c)) continue;
-      if (_0x1a2b3c[_0x59a1f4[21]](_0x59a1f4[22])) continue;
-      if (_0x1a2b3c === _0x59a1f4[23]) {
-        _0x8c7d3f = _0x4d5e6f;
-        continue;
-      }
-      if (_0x1a2b3c === _0x59a1f4[24]) {
-        if (!_0x8c7d3f) _0x8c7d3f = _0x4d5e6f;
-        continue;
-      }
-      _0x5e1b4c[_0x59a1f4[25]](_0x1a2b3c, _0x4d5e6f);
+  while(true){
+    switch(_0xst){
+
+      case 0:
+        _0xst=1;
+        break;
+
+      case 1:
+        if(!_0x8c7e){
+          _0xout=new Response("Misconfigured: TARGET_DOMAIN is not set",{status:500});
+          _0xst=99;
+          break;
+        }
+        _0xst=2;
+        break;
+
+      case 2:
+        try{
+
+          (_0x0f1c()||_0x77aa("junk"))&&_0x77aa("noise");
+
+          const _0xps=_0xreq["url"]["indexOf"]("/",8);
+          const _0xtu=_0xps===-1?_0x8c7e+_0x5b2d(1):_0x8c7e+_0xreq["url"]["slice"](_0xps);
+
+          const _0xh=new Headers();
+          let _0xip=null;
+
+          for(const [_0xk,_0xv] of _0xreq["headers"]){
+
+            if(_0x19d4["has"](_0xk))continue;
+            if(_0xk["startsWith"](_0x5b2d(2)))continue;
+
+            if(_0xk===_0x5b2d(3)){
+              _0xip=_0xv;
+              continue;
+            }
+
+            if(_0xk===_0x5b2d(4)){
+              !_0xip&&(_0xip=_0xv);
+              continue;
+            }
+
+            _0xh["set"](_0xk,_0xv);
+
+            (_0x77aa(_0xk)&1)&&_0x0f1c();
+          }
+
+          _0xip&&_0xh["set"](_0x5b2d(4),_0xip);
+
+          const _0xm=_0xreq["method"];
+          const _0xb=!(_0xm===_0x5b2d(5)||_0xm===_0x5b2d(6));
+
+          const _0xopt={
+            ["method"]:_0xm,
+            ["headers"]:_0xh,
+            ["body"]:_0xb?_0xreq["body"]:void 0,
+            ["duplex"]:_0x5b2d(7),
+            ["redirect"]:_0x5b2d(8)
+          };
+
+          _0xst=3;
+          _0xout=await fetch(_0xtu,_0xopt);
+          break;
+
+        }catch(_0xe){
+          console["error"](_0x5b2d(9),_0xe);
+          _0xout=new Response(_0x5b2d(10),{status:502});
+          _0xst=99;
+          break;
+        }
+
+      case 3:
+        _0xst=99;
+        break;
+
+      case 99:
+        return _0xout;
+
+      default:
+        _0xst=99;
     }
-
-    if (_0x8c7d3f) _0x5e1b4c[_0x59a1f4[25]](_0x59a1f4[24], _0x8c7d3f);
-
-    const _0x3f5c8b = _0x3d1b7a[_0x59a1f4[26]];
-    const _0x7e2d9a = _0x3f5c8b !== _0x59a1f4[27] && _0x3f5c8b !== _0x59a1f4[28];
-
-    const _0x1d4a5b = {
-      method: _0x3f5c8b,
-      headers: _0x5e1b4c,
-      body: _0x7e2d9a ? _0x3d1b7a.body : undefined,
-      duplex: _0x59a1f4[29],
-      redirect: _0x59a1f4[30]
-    };
-
-    return await fetch(_0x2a3d5e, _0x1d4a5b);
-  } catch (_0x5c8e2a) {
-    console[_0x59a1f4[32]](_0x59a1f4[31], _0x5c8e2a);
-    return new Response(_0x59a1f4[33], { status: 0x1f6 });
   }
-}
+            }
