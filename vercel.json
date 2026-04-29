@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "name": "vercel-" + "xhttp-relay",
+  "name": "vercel-xhttp-relay",
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/api/" + "index"
-    }
+    { "source": "/(.*)", "destination": "/api/index" }
   ],
-  "trailingSlash": !0
+  "trailingSlash": false
 }
